@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://student2022.database.windows.net:1433;database=specbackend-server;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    url: jdbc:sqlserver://specbackend.database.windows.net:1433;database=specbackend-server;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: lgjmjbznal
     password: 0206245NU8V31714$
   jpa:

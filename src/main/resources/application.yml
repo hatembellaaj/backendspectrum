@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://specbackend-server.mysql.database.azure.com:3306/specbackend-server?useSSL=true
+    url: jdbc:mysql://specbackend-server.mysql.database.azure.com:3306/specbackend-server?useSSL=true
     username: lgjmjbznal
     password: 0206245NU8V31714$
   jpa:

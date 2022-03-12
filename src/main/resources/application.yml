@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://student2022.database.windows.net:1433;database=student;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
-    username: student
-    password: Password123
+    url: jdbc:sqlserver://student2022.database.windows.net:1433;database=specbackend-server;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: lgjmjbznal
+    password: 0206245NU8V31714$
   jpa:
     show-sql: true
     hibernate:

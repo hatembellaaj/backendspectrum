@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://student2022.database.windows.net:1433;database=student;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
-    username: student
-    password: Password123
+    url: jdbc:sqlserver://spectrumdevops.database.windows.net:1433;database=spectrumdevops;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: spectrumdevops
+    password: Password1234
   jpa:
     show-sql: true
     hibernate:
@@ -11,5 +11,7 @@ spring:
 
 server:
   port: 9191
+
+
 
 

@@ -1,15 +1,17 @@
 spring:
   datasource:
-    url: jdbc:mysql://specbackend-server.mysql.database.azure.com:3306/specbackend?useSSL=true
-    username: lgjmjbznal
-    password: 0206245NU8V31714$
+    url: jdbc:sqlserver://spectrumdevops.database.windows.net:1433;database=student;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: spectrumdevops
+    password: Password1234
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
-      dialect : org.hibernate.dialect.MySQL8Dialect
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
 
 server:
   port: 9191
+
+
 
 

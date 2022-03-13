@@ -24,7 +24,7 @@ public class SpringbootAzuresqlApplication {
 
     @GetMapping("/employees")
     public List<Employee> getEmployees() {
-    	System.out.println("Test de rédéploiement ......");
+    	System.out.println("Test de rédéploiement ...... :) n");
         return repository.findAll();
     }
 
